@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC-FORM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/stely.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/saude.css">
+    <link rel="stylesheet" href="./src/css/imc.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+   
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <i class="fa-solid fa-heart"></i>
+            <h1>LOGO</h1>
+        </div >
+        <div class="menu-iten">
+            <ul class="menu">
+                <li> <a href="#">Peso ideal</a></li>
+                <li> <a href="#">Imc</a></li>
+                <li> <a href="#">Saude</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="saude">
+        <div class="texto">
+            <h1>Dicas de saude</h1>
+            <p>
+                O importante é ter saúde e bem-estar! Veja essas dicas e ...
+                Praticar atividade física regularmente, controlar o peso, visitar o médico periodicamente, diminuir o estresse, manter bons hábitos sociais e familiares, incluindo hobbys e atividades de lazer, assim como evitar o tabagismo e moderar o consumo de bebidas alcoólicas são fundamentais para promover a saúde e o bem-estar.</p>
+        </div>
+        <div class="image">
+            <img src="./src/img/malhar.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="formulario">
+        <form class="form">
+
+            <div class="dados">
+                <h1>CALCULO IMC</h1>
+                <div class="Peso">
+                    <label for="peso"><i class="fa-solid fa-weight-hanging"></i> Peso em kilos</label>
+                    <input type="number" class="peso" step="0.01">
+                </div>
+                <div class="alt">
+                    <label for="altura"><i class="fa-solid fa-ruler-vertical"></i> Altura em metros</label>
+                    <input type="number" class="altura" step="0.01">
+                </div>
+              
+                    <button class="bnt" type="submit">Calcular</button>
+
+                    <div class="mensagem esconder">
+                        <div class="resultado"> 
+                           <span class="value"></span>
+                           <span>IMC</span>
+                        </div>
+                        <div class="descricao">
+                            
+                            <span class="texto"></span>
+                             
+                        </div>
+                    </div>
+
+               
+            </div>
+            
+          
+        </form>
+        
+   
+    </section>
+
+    <footer>
+        <div class="social">
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <p>Sidney peixoto</p>
+        </div>
+    </footer>
+   
+    <script src="./src/js/imc.js" ></script>
+</body>
+</html>

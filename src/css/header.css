@@ -1,0 +1,43 @@
+.header {
+    background-color: #f8f2f2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    border-bottom: 2px solid #fff;
+
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .menu-iten .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.header .menu-iten .menu a {
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    transition: .4s;
+
+}
+
+.header .menu-iten .menu a:hover {
+    color: #fff;
+    background-color:greenyellow;
+}
+
+@media (max-width:569px) {
+  .header{
+    display: none;
+  }
+}

@@ -1,0 +1,74 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/saude.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    width: 100%;
+    height: 80vh;
+   }
+   .formulario h1{
+       color:#c2c0c0;
+       text-align: center;
+       margin-bottom: 15px;
+   
+   }
+   
+   .dados {
+   
+       color: #c2c0c0;
+       background-color: #0b0a0bf9;
+       border: 2px solid #c2c0c0;
+       width: 300px;
+       height: 400px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   
+   }
+   .formulario .dados .peso{
+   
+       width: 200px;
+       height: 30px;
+       padding: 6px;
+       margin-bottom: 15px;
+   
+   }
+   .formulario .dados .altura{
+       width: 200px;
+       height:30px;
+       padding: 6px;
+       margin-bottom: 15px;
+   
+   }
+   .dados button{
+       width: 90%;
+       padding: 5px;
+       border: none;
+       color: #101010;
+       border-radius: 6px;
+       background-color: greenyellow;
+       font-weight: bold;
+       margin-top: 20px;
+   }
+   
+   .dados input{
+       width: 200px;
+       padding: 5px;
+       border: none;
+       font-weight: bold;
+       color: #363636;
+       border-radius: 6px;
+   }
+   .mensagem{
+       display: flex;
+       flex-direction: column;
+       justify-content:start;
+       margin-top: 15px;
+   }
+   .mensagem .resultado span{
+       font-size: 20px;
+   }
